@@ -1,5 +1,5 @@
 # ParkingManagementSystem
-##Parking Management System using linked list data structure
+### Parking Management System using linked list data structure
 
 **Some Explanations:**
 1. Number written on number plate of car will be stored followed by district code at the beginining for example: MH 04 35837 
