@@ -2,6 +2,7 @@
 ## Parking Management System using linked list data structure
 
 **Some Explanations:**
+
 *Number plate example : MH 04 35837*
 1. Number written on number plate of a vehicle is followed by state and district code at the beginining. 
 2. Here MH is state code for any vehicle in Maharashtra. 04 indicates district code and 35387 is the vehicle number.
