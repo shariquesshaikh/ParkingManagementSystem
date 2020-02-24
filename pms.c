@@ -257,16 +257,7 @@ void Addbike()
  {
     struct node* q;
     q=(struct node*)malloc(sizeof(struct node));
-    
-    
-    // Number written on number plate of car will be stored followed by district code at the beginining 
-    // for example: MH 04 35837 
-    // here MH is state code for any vehicle in Maharashtra which is understood so, there is no need to store this.
-    // 04 indicates district code.
-    // 35387 is the number.
-    // program will store the number of vehicle as DistrictcodeCarNumber ie. 0435837
-    
-    
+ 
     printf("\t\tEnter the car number:");
     scanf("%d",&q->bikedata);
      q->bikelink=NULL;
@@ -380,15 +371,6 @@ void Addrickshaw()
     struct node* t;
     t=(struct node*)malloc(sizeof(struct node));
     
-    
-    // Number written on number plate of car will be stored followed by district code at the beginining 
-    // for example: MH 04 35837 
-    // here MH is state code for any vehicle in Maharashtra which is understood so, there is no need to store this.
-    // 04 indicates district code.
-    // 35387 is the number.
-    // program will store the number of vehicle as DistrictcodeCarNumber ie. 0435837
-    
-    
     printf("\t\tEnter the Auto Rickshaw number:");
     scanf("%d",&t->rickdata);
      t->ricklink=NULL;
@@ -497,16 +479,7 @@ void Addbus()
  {
     struct node* s;
     s=(struct node*)malloc(sizeof(struct node));
-    
-    
-    // Number written on number plate of car will be stored followed by district code at the beginining 
-    // for example: MH 04 35837 
-    // here MH is state code for any vehicle in Maharashtra which is understood so, there is no need to store this.
-    // 04 indicates district code.
-    // 35387 is the number.
-    // program will store the number of vehicle as DistrictcodeCarNumber ie. 0435837
-    
-    
+  
     printf("\t\tEnter the Bus number:");
     scanf("%d",&s->busdata);
      s->buslink=NULL;
