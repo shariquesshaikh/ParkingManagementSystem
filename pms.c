@@ -270,7 +270,7 @@ void Addbike()
         
         printf("\t\tEntry Successful!\n\n");
     }
-//when one or more than Car is already parked in parking area
+//when one or more than one bike is already parked in parking area
     else
     {
         struct node* q1;
@@ -281,7 +281,7 @@ void Addbike()
             q1=q1->bikelink;
         }
         
-//New Car number is stored
+//New bike number is stored
         q1->bikelink=q;
         bikecap++;
         printf("\t\tEntry Successful!\n\n");
@@ -294,7 +294,7 @@ void Addbike()
     
 }
 
-// Finds the car in list and deletes the entry
+// Finds the bike in list and deletes the entry
 int Findbike()
 {   int n2,loc1=1,j=1;
     if(bikecap==0)
